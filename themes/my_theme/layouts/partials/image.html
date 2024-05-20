@@ -1,0 +1,14 @@
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        {{ range .carouselImages }}
+        <div class="item">
+          <img src="{{ .src }}" alt="{{ .alt }}" />
+          <h2 class="subtitle has-text-centered">{{ .description }}</h2>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

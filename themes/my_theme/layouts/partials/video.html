@@ -1,0 +1,18 @@
+{{ if .Params.videoCarousel }}
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        {{ range .Params.videoCarousel }}
+        <div class="item">
+          <video poster="" autoplay controls muted loop height="100%">
+            <source src="{{ .src }}" type="video/mp4">
+          </video>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

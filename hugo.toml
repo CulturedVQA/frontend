@@ -1,0 +1,41 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Academic Project"
+theme = "my_theme"
+
+[params]
+  description = "DESCRIPTION META TAG"
+  ogTitle = "SOCIAL MEDIA TITLE TAG"
+  ogDescription = "SOCIAL MEDIA DESCRIPTION TAG"
+  twitterTitle = "TWITTER BANNER TITLE META TAG"
+  twitterDescription = "TWITTER BANNER DESCRIPTION META TAG"
+  keywords = "KEYWORDS SHOULD BE PLACED HERE"
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
+    isHTML = true
+    noUgly = true
+
+[mediaTypes]
+  [mediaTypes."text/html"]
+    suffixes = ["html"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    noClasses = false
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  page = ["HTML"]
+  alias = ["HTML"]
+  sitemap = ["XML"]

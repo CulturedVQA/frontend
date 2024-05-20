@@ -1,0 +1,93 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">{{ .Title }}</h1>
+          <div class="is-size-5 publication-authors">
+            {{ range .Params.authors }}
+            <span class="author-block">
+              <a href="{{ .link }}" target="_blank">{{ .name }}</a><sup>*</sup>,
+            </span>
+            {{ end }}
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">{{ .Params.institution }}<br>{{ .Params.conference }}</span>
+            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+          </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="{{ .Params.paperLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="{{ .Params.supplementaryLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="{{ .Params.githubLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="{{ .Params.arxivLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ range .Params.sectionsOrder }}
+  {{ if eq . "teaser" }}
+    {{ partial "teaser.html" . }}
+  {{ else if eq . "abstract" }}
+    {{ partial "abstract.html" . }}
+  {{ else if eq . "image" }}
+    {{ partial "image.html" . }}
+  {{ else if eq . "youtube" }}
+    {{ partial "youtube.html" . }}
+  {{ else if eq . "video" }}
+    {{ partial "video.html" . }}
+  {{ else if eq . "bibtex" }}
+    {{ partial "bibtex.html" . }}
+  {{ else if eq . "text-section" }}
+    {{ partial "text-section.html" . }}
+  {{ end }}
+{{ end }}
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the code of this website, we just ask that you link back to this page in the footer.<br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+{{ end }}
