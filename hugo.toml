@@ -1,13 +1,13 @@
-baseURL = "https://thereisaflyinmytea.netlify.app/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Awesome Website"
+title = "My Academic Project"
 theme = "my_theme"
 
 [params]
   description = "This is an awesome benchmark dataset that you must try"
   ogTitle = "Awesome Website"
   ogDescription = "This is an awesome benchmark dataset that you must try"
-  twitterTitle = Awesome Website"
+  twitterTitle = "Awesome Website"
   twitterDescription = "This is an awesome benchmark dataset that you must try"
   keywords = "computer vision, vlm"
 
