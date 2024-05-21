@@ -3,8 +3,8 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <div class="content has-text-justified">{{ $file := .Get 0 }}  {{ if strings.HasSuffix $file ".md" }} {{ $file | readFile | markdownify }} {{ end }} </div>
-      </div>   
-    </div>
-  </div> 
+      </div>    
+    </div>   
+  </div>  
 </section> 
-  
+   

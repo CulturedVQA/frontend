@@ -29,10 +29,12 @@ sectionsOrder:
 ---
 
 {{% abstract %}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+Visual Question Answering (VQA) is an important task in multimodal AI, which requires models to understand and reason about the knowledge in both visual and textual information of the data. However, most of the current VQA datasets and models a reprimarily focused on English and a few major world languages. Although some studies put some efforts to extend VQA datasets to multilingual, they still lack diversity in low-resource languages. More importantly, the diversity of visual information (e.g. the image should reflect local language culture) is ignored to some extent - in other words previous work on building multilingual VQA data mainly focuses on extending the language side to multilingual. To address this limitation, we propose a new multilingual multimodal VQA benchmark that emphasizes culturally-diverse data across a wide range of languages. By engaging native speakers and cultural experts in the data collection process and sourcing images from diverse geographic regions, we aim to create a more inclusive and representative dataset. With this benchmark serving as a probing evaluation suite for assessing the cultural bias of current multimodal models will promote the development of culturally-aware and linguistically comprehensive VQA models, encouraging fairness and reducing bias in AI systems.
 {{% /abstract %}}
 
 {{% text-section "./content/introduction.md" %}}
 {{% text-section "./content/method.md" %}}
 {{% text-section "./content/experiment-result.md" %}}
+{{% text-section "./content/leaderboard.md" %}}
+
 
