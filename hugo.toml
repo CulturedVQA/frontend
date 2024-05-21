@@ -1,15 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "https://thereisaflyinmytea.netlify.app/"
 languageCode = "en-us"
-title = "My Academic Project"
+title = "Awesome Website"
 theme = "my_theme"
 
 [params]
-  description = "DESCRIPTION META TAG"
-  ogTitle = "SOCIAL MEDIA TITLE TAG"
-  ogDescription = "SOCIAL MEDIA DESCRIPTION TAG"
-  twitterTitle = "TWITTER BANNER TITLE META TAG"
-  twitterDescription = "TWITTER BANNER DESCRIPTION META TAG"
-  keywords = "KEYWORDS SHOULD BE PLACED HERE"
+  description = "This is an awesome benchmark dataset that you must try"
+  ogTitle = "Awesome Website"
+  ogDescription = "This is an awesome benchmark dataset that you must try"
+  twitterTitle = Awesome Website"
+  twitterDescription = "This is an awesome benchmark dataset that you must try"
+  keywords = "computer vision, vlm"
 
 [outputFormats]
   [outputFormats.HTML]

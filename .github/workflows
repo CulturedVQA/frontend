@@ -3,7 +3,7 @@ name: Deploy Hugo site to Netlify
 on:
   push:
     branches:
-      - main # Change to your default branch if it's not 'main'
+      - master # Change to your default branch if it's not 'main'
 
 jobs:
   build:
