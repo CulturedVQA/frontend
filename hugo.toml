@@ -1,15 +1,15 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My Academic Project"
+title = "CVQA: A Culturally-diverse Multilingual Visual Question Answering Benchmark"
 theme = "my_theme"
 
 [params]
-  description = "This is an awesome benchmark dataset that you must try"
-  ogTitle = "Awesome Website"
-  ogDescription = "This is an awesome benchmark dataset that you must try"
-  twitterTitle = "Awesome Website"
-  twitterDescription = "This is an awesome benchmark dataset that you must try"
-  keywords = "computer vision, vlm"
+  description = "A Culturally-diverse Multilingual Visual Question Answering Benchmark"
+  ogTitle = "CVQA: A Culturally-diverse Multilingual Visual Question Answering Benchmark"
+  ogDescription = "This is a culturally-diverse Multilingual Visual Question Answering Benchmark"
+  twitterTitle = "CVQA: A Culturally-diverse Multilingual Visual Question Answering Benchmark"
+  twitterDescription = "This is a culturally-diverse Multilingual Visual Question Answering Benchmark"
+  keywords = "multimodal, vlm, nlp, computer vision, benchmark, dataset, vqa"
 
 [outputFormats]
   [outputFormats.HTML]
