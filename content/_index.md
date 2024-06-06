@@ -1,17 +1,25 @@
 ---
-title: "We are Electric"
+title: "CVQA - A Culturally-diverse Multilingual Visual Question Answering Benchmark"
 authors:
-  - name: "Dog Cat"
-    link: "FIRST AUTHOR PERSONAL LINK"
-  - name: "Pistacchio Cookies"
-    link: "SECOND AUTHOR PERSONAL LINK"
-  - name: "Third Author"
-    link: "THIRD AUTHOR PERSONAL LINK"
-institution: "MBZUAI"
-conference: "Soon to be submitted"
-paperLink: "https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf"
-githubLink: "https://github.com/YOUR REPO HERE"
-arxivLink: "https://arxiv.org/abs/<ARXIV PAPER ID>"
+  - name: "David Romero"
+    # link: "FIRST AUTHOR PERSONAL LINK"
+  - name: "Chenyang Lyu"
+    # link: "SECOND AUTHOR PERSONAL LINK"
+    # link: "THIRD AUTHOR PERSONAL LINK"
+  
+authors_second:
+  - name: "Haryo Akbarianto Wibowo"
+  - name: "Teresa Lynn"
+  - name: "Injy Hamed"
+  - name: "Annotators (Soon to be announced)"
+  - name: "Thamar Solorio"
+  - name: "Alham Fikri Aji"
+
+institution: "MBZUAI Core Team"
+conference: "Submitted to a conference"
+paperLink: "#"
+arxivLink: "#"
+huggingfaceLink: "https://huggingface.co/datasets/afaji/cvqa"
 teaserVideo: "static/videos/banner_video.mp4"
 teaserDescription: "Aliquam vitae elit ullamcorper tellus egestas pellentesque."
 
@@ -20,17 +28,11 @@ youtubeEmbed: "https://www.youtube.com/embed/JkaxUblCGz0"
 sectionsOrder:
   - bibtex:
       bibtex: |
-        @article{example2024,
-          title={Example Title},
-          author={Author, A.},
-          journal={Journal Name},
-          year={2024}
-        }
+        tba
 ---
 
 {{% abstract %}}
-Visual Question Answering (VQA) is an important task in multimodal AI, which requires models to understand and reason about the knowledge in both visual and textual information of the data. However, most of the current VQA datasets and models a reprimarily focused on English and a few major world languages. Although some studies put some efforts to extend VQA datasets to multilingual, they still lack diversity in low-resource languages. More importantly, the diversity of visual information (e.g. the image should reflect local language culture) is ignored to some extent - in other words previous work on building multilingual VQA data mainly focuses on extending the language side to multilingual. To address this limitation, we propose a new multilingual multimodal VQA benchmark that emphasizes culturally-diverse data across a wide range of languages. By engaging native speakers and cultural experts in the data collection process and sourcing images from diverse geographic regions, we aim to create a more inclusive and representative dataset. With this benchmark serving as a probing evaluation suite for assessing the cultural bias of current multimodal models will promote the development of culturally-aware and linguistically comprehensive VQA models, encouraging fairness and reducing bias in AI systems.
-{{% /abstract %}}
+Visual Question Answering~(VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA datasets and models are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual bf Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field.{{% /abstract %}}
 
 {{% text-section "./content/introduction.md" %}}
 {{% text-section "./content/method.md" %}}

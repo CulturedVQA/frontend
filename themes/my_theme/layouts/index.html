@@ -5,10 +5,15 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">{{ .Title }}</h1>
-          <div class="is-size-5 publication-authors">
+          <div class="is-size-6 publication-authors">
             {{ range .Params.authors }}
             <span class="author-block">
-              <a href="{{ .link }}" target="_blank">{{ .name }}</a><sup>*</sup>,
+              {{ .name }}<sup>*</sup> 
+            </span>
+            {{ end }}
+            {{ range .Params.authors_second }}
+            <span class="author-block">
+              {{ .name }},
             </span>
             {{ end }}
           </div>
@@ -35,14 +40,6 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="{{ .Params.githubLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                </a>
-              </span>
-              <span class="link-block">
                 <a href="{{ .Params.huggingfaceLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <img src="/images/hf-logo-pirate.png" alt="Huggingface" style="width: 1em; height: 1em;">
@@ -50,6 +47,7 @@
                   <span>Huggingface</span> 
                 </a>
               </span>
+              
 
               <!-- <span class="link-block">
                 <a href="{{ .Params.arxivLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">

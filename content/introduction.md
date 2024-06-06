@@ -11,4 +11,3 @@ Visual Question Answering (VQA) is a challenging task that requires AI systems t
 To address these limitations, we propose building a <b><span style='color: red'>culturally-and-linguistically diverse multilingual multimodal VQA benchmark, with the aim of promoting fairness, by ensuring that all languages, especially low-resource ones, are adequately represented</span></b>. By incorporating culturally-specific questions and images, CVQA will better represent real-world scenarios and improve the robustness of VQA models through training on diverse data.
 
 Specifically, we gather the help from peers across the whole ACL community to obtain culturally-diverse images and questions in the corresponding local languages to ensure the language style does match the image style. In the first round of data collection, we get around 5k images and 10k questions, covering more than 30 countries which are under-represented in previous VQA datasets. 
-
