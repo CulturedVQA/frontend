@@ -54,7 +54,7 @@
                   <span class="icon">
                     <img src="/images/hf-logo-pirate.png" alt="Huggingface" style="width: 1em; height: 1em;">
                   </span>
-                  <span>Huggingface</span> 
+                  <span>Data</span> 
                 </a>
               </span>
             </div> 
@@ -67,10 +67,10 @@
  
 
 {{ .Content | markdownify }}
- 
+  
 {{ warnf "sectionsOrder: %v" .Params.sectionsOrder }}
 <!-- Loop through the sectionsOrder array and render the partials based on the key value. -->
- 
+   
 {{ range $key, $value := .Params.sectionsOrder }}
   {{ range $key2, $value2 := $value }}
     {{ if eq $key2 "image" }}

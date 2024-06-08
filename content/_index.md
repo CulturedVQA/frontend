@@ -10,8 +10,6 @@ authors:
 authors_main:
   - name: "Haryo Akbarianto Wibowo,"
 authors_annotators:
-  - name: "Teresa Lynn"
-  - name: "Injy Hamed"
   - name: "Injy Hamed"
   - name: "Aditya Nanda Kishore"
   - name: "Aishik Mandal"
@@ -42,7 +40,6 @@ authors_annotators:
   - name: "Jesus-German Ortiz-Barajas"
   - name: "Jiahui Geng"
   - name: "Jinheon Baek"
-  - name: "Joan Nwatu"
   - name: "Jocelyn Dunstan Escudero"
   - name: "Kumaranage Ravindu Yasas Nagasinghe"
   - name: "Laura Alonso Alemany"
@@ -59,7 +56,6 @@ authors_annotators:
   - name: "Munkh-Erdene Otgonbold"
   - name: "Munkhjargal Gochoo"
   - name: "Naome A. Etori"
-  - name: "Oana Ignat"
   - name: "Olivier Niyomugisha"
   - name: "Paula Mónica Silva"
   - name: "Pranjal Chitale"
@@ -72,7 +68,6 @@ authors_annotators:
   - name: "Soyeong Jeong"
   - name: "Sukannya Purkayastha"
   - name: "Tatsuki Kuribayashi"
-  - name: "Teresa Lynn"
   - name: "Thanmay Jayakumar"
   - name: "Tiago Timponi Torrent"
   - name: "Toqeer Ehsan"
@@ -81,6 +76,9 @@ authors_annotators:
   - name: "Zara Burzo"
   - name: "Zheng Wei Lim"
   - name: "Zheng-Xin Yong"
+  - name: "Oana Ignat"
+  - name: "Joan Nwatu"
+  - name: "Rada Mihalcea"
 authors_senior:
   - name: "Thamar Solorio"
   - name: "Alham Fikri Aji"

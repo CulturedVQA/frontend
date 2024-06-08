@@ -5,4 +5,4 @@ Our contributions can be summarised as follows:
 - **A culturally diverse multilingual VQA**:  consisting of over 9,000 questions from across 28 countries and 26 languages.
 - **Baseline Evaluation**: we provide an initial set of evaluations on this benchmark, to serve as a baseline for future research on vision-language models that are culturally diverse.
 
-![alt text](images/image_examples_2.png)
+![alt text](images/cvqa_image.png)
