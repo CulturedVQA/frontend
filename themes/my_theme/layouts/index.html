@@ -1,19 +1,21 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="hero-body">
+  <div class="hero-body" style="padding-bottom: 2rem;">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 is-size-3 publication-title">{{ .Title }}</h1>
-          <div class="is-size-6 publication-authors">
+          <h1 class="title is-1 is-size-3 publication-title">
+            {{ .Title }}
+          </h1>
+          <div class="is-size-7 publication-authors">
             {{ range .Params.authors }}
             <span class="author-block has-text-weight-bold is-size-7 ">
-              {{ .name }}<sup>*</sup><sup>[CORE]</sup>,
+              {{ .name }}<sup>*</sup><sup>👁️</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_main }}
             <span class="author-block has-text-weight-bold  is-size-7 ">
-              {{ .name }} <sup>[CORE]</sup>,
+              {{ .name }}<sup>👁️</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_annotators }}
@@ -21,15 +23,16 @@
               {{ .name }}, 
             </span>
             {{ end }}
-            {{ range .Params.authors_senior }}
-            <span class="author-block has-text-weight-bold is-size-7 ">
-              {{ .name }} <sup>[CORE]</sup>,
-            </span>
+            {{ $length := len .Params.authors_senior }}
+            {{ range $index, $author := .Params.authors_senior }}
+              <span class="author-block has-text-weight-bold is-size-7">
+                {{ $author.name }}<sup>👁️</sup>{{ if lt (add $index 1) $length }},{{ end }}
+              </span>
             {{ end }}
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block is-size-6"><sup>[CORE]</sup> {{ .Params.institution }}<!--<br>{{ .Params.conference }} --> </span>
-            <span class="eql-cntrb is-size-7"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            <span class="eql-cntrb is-size-7"><small><br><sup><b>*</b></sup>Indicates Equal Contribution</small></span>
+            <span class="author-block is-size-7"><sup>👁️</sup> {{ .Params.institution }}<!--<br>{{ .Params.conference }} --> </span>
           </div>
           <div class="column has-text-centered">
             <div class="publication-links"> 
@@ -57,6 +60,8 @@
                   <span>Data</span> 
                 </a>
               </span>
+              <hr>
+
             </div> 
           </div>    
         </div>     
@@ -64,7 +69,7 @@
     </div>
   </div>
 </section>  
- 
+
 
 {{ .Content | markdownify }}
   

@@ -29,6 +29,8 @@ body {
 
 
 .publication-title {
+  display: flex;
+  align-items: center;
 }
 
 .publication-banner {
@@ -133,8 +135,6 @@ body {
   font-size: smaller;
 }
 
-
-
 .sponsor-logos .column {
   display: flex;
   justify-content: center;
@@ -145,3 +145,4 @@ body {
   max-width: 100%;
   height: auto;
 }
+

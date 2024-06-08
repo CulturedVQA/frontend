@@ -1,15 +1,16 @@
 ---
 title: "CVQA - A Culturally-diverse Multilingual Visual Question Answering Benchmark"
 authors:
-  - name: "David Romero,"
+  - name: "David Romero"
     # link: "FIRST AUTHOR PERSONAL LINK"
-  - name: "Chenyang Lyu,"
+  - name: "Chenyang Lyu"
     # link: "SECOND AUTHOR PERSONAL LINK"
     # link: "THIRD AUTHOR PERSONAL LINK"
 
 authors_main:
-  - name: "Haryo Akbarianto Wibowo,"
+  - name: "Haryo Akbarianto Wibowo"
 authors_annotators:
+  - name: "Teresa Lynn"
   - name: "Injy Hamed"
   - name: "Aditya Nanda Kishore"
   - name: "Aishik Mandal"
