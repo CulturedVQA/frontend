@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://cvqa-benchmark.org/"
 languageCode = "en-us"
 title = "CVQA: A Culturally-diverse Multilingual Visual Question Answering Benchmark"
 theme = "my_theme"
