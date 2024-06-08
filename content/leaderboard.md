@@ -1,5 +1,5 @@
 # Test your system!
 
-Eager to show that your system understands culture?  prove it by submitting your prediction in our leader board.
+Eager to show that your system understands culture?  prove it by submitting your prediction on the leaderboard.
 
-You can visit this website <a href="#">Leaderboard</a>
+You can visit the website here: <a href="#">Leaderboard</a>

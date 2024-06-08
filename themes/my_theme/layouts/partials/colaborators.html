@@ -1,0 +1,14 @@
+<section class="section">
+    <div class="container">
+        <h1 class="title">Our Sponsors</h1>
+        <div class="columns is-multiline sponsor-logos">
+            {{ range .Site.Data.sponsors.sponsors }}
+            <div class="column is-one-fifth">
+                <figure class="image is-4by3">
+                    <img src="{{ .logo }}" alt="{{ .name }}">
+                </figure>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

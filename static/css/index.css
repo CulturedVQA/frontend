@@ -135,3 +135,13 @@ body {
 
 
 
+.sponsor-logos .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-logos img {
+  max-width: 100%;
+  height: auto;
+}
