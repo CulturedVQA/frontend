@@ -4,33 +4,32 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">{{ .Title }}</h1>
+          <h1 class="title is-1 is-size-3 publication-title">{{ .Title }}</h1>
           <div class="is-size-6 publication-authors">
             {{ range .Params.authors }}
-            <span class="author-block has-text-weight-bold">
+            <span class="author-block has-text-weight-bold is-size-7 ">
               {{ .name }}<sup>*</sup><sup>[CORE]</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_main }}
-            <span class="author-block has-text-weight-bold">
+            <span class="author-block has-text-weight-bold  is-size-7 ">
               {{ .name }} <sup>[CORE]</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_annotators }}
-            <span class="author-block ">
-              {{ .name }},
+            <span class="author-block is-size-7 ">
+              {{ .name }}, 
             </span>
             {{ end }}
             {{ range .Params.authors_senior }}
-            <span class="author-block has-text-weight-bold">
+            <span class="author-block has-text-weight-bold is-size-7 ">
               {{ .name }} <sup>[CORE]</sup>,
             </span>
             {{ end }}
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>[CORE]</sup> {{ .Params.institution }}<!--<br>{{ .Params.conference }} --> </span>
-            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-            <!-- -->
+            <span class="author-block is-size-6"><sup>[CORE]</sup> {{ .Params.institution }}<!--<br>{{ .Params.conference }} --> </span>
+            <span class="eql-cntrb is-size-7"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
           </div>
           <div class="column has-text-centered">
             <div class="publication-links"> 
@@ -58,16 +57,6 @@
                   <span>Huggingface</span> 
                 </a>
               </span>
-              
-
-              <!-- <span class="link-block">
-                <a href="{{ .Params.arxivLink }}" target="_blank" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>   
-                  <span>arXiv</span>
-                </a>
-              </span> -->
             </div> 
           </div>    
         </div>     
