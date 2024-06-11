@@ -1,5 +1,5 @@
 ---
-title: "CVQA - A Culturally-diverse Multilingual Visual Question Answering Benchmark"
+title: "CVQA - Culturally-diverse Multilingual Visual Question Answering Benchmark"
 authors:
   - name: "David Romero"
     # link: "FIRST AUTHOR PERSONAL LINK"
@@ -45,7 +45,7 @@ authors_annotators:
   - name: "Kumaranage Ravindu Yasas Nagasinghe"
   - name: "Laura Alonso Alemany"
   - name: "Luciana Benotti"
-  - name: "Luis Fernando"
+  - name: " Luis Fernando D'Haro"
   - name: "Marcelo Viridiano"
   - name: "Marcos Estecha-Garitagoitia"
   - name: "Maria Camila Buitrago Cabrera"
@@ -54,8 +54,8 @@ authors_annotators:
   - name: "Mihail Mihaylov"
   - name: "Mohamed Fazli Mohamed Imam"
   - name: "Muhammad Farid Adilazuarda"
-  - name: "Munkh-Erdene Otgonbold"
   - name: "Munkhjargal Gochoo"
+  - name: "Munkh-Erdene Otgonbold"
   - name: "Naome A. Etori"
   - name: "Olivier Niyomugisha"
   - name: "Paula Mónica Silva"
@@ -86,8 +86,8 @@ authors_senior:
 
 institution: "MBZUAI Core Team"
 conference: "Submitted to a conference"
-paperLink: "#"
-arxivLink: "#"
+paperLink: "https://arxiv.org/abs/2406.05967"
+arxivLink: ""
 leaderboardLink: "https://eval.ai/web/challenges/challenge-page/2305/"
 huggingfaceLink: "https://huggingface.co/datasets/afaji/cvqa"
 teaserVideo: "static/videos/banner_video.mp4"
@@ -100,7 +100,16 @@ sectionsOrder:
   #   test: a
   - bibtex:
       bibtex: |
-        tba
+        @misc{romero2024cvqa,
+              title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark}, 
+              author={David Romero and Chenyang Lyu and Haryo Akbarianto Wibowo and Teresa Lynn and Injy Hamed and Aditya Nanda Kishore and Aishik Mandal and Alina Dragonetti and Artem Abzaliev and Atnafu Lambebo Tonja and Bontu Fufa Balcha and Chenxi Whitehouse and Christian Salamea and Dan John Velasco and David Ifeoluwa Adelani and David Le Meur and Emilio Villa-Cueva and Fajri Koto and Fauzan Farooqui and Frederico Belcavello and Ganzorig Batnasan and Gisela Vallejo and Grainne Caulfield and Guido Ivetta and Haiyue Song and Henok Biadglign Ademtew and Hernán Maina and Holy Lovenia and Israel Abebe Azime and Jan Christian Blaise Cruz and Jay Gala and Jiahui Geng and Jesus-German Ortiz-Barajas and Jinheon Baek and Jocelyn Dunstan and Laura Alonso Alemany and Kumaranage Ravindu Yasas Nagasinghe and Luciana Benotti and Luis Fernando D'Haro and Marcelo Viridiano and Marcos Estecha-Garitagoitia and Maria Camila Buitrago Cabrera and Mario Rodríguez-Cantelar and Mélanie Jouitteau and Mihail Mihaylov and Mohamed Fazli Mohamed Imam and Muhammad Farid Adilazuarda and Munkhjargal Gochoo and Munkh-Erdene Otgonbold and Naome Etori and Olivier Niyomugisha and Paula Mónica Silva and Pranjal Chitale and Raj Dabre and Rendi Chevi and Ruochen Zhang and Ryandito Diandaru and Samuel Cahyawijaya and Santiago Góngora and Soyeong Jeong and Sukannya Purkayastha and Tatsuki Kuribayashi and Thanmay Jayakumar and Tiago Timponi Torrent and Toqeer Ehsan and Vladimir Araujo and Yova Kementchedjhieva and Zara Burzo and Zheng Wei Lim and Zheng Xin Yong and Oana Ignat and Joan Nwatu and Rada Mihalcea and Thamar Solorio and Alham Fikri Aji},
+              year={2024},
+              eprint={2406.05967},
+              archivePrefix={arXiv},
+              primaryClass={cs.CV}
+        }
+
+
 ---
 
 <!-- {{% abstract %}}

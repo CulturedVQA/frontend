@@ -4,9 +4,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 is-size-3 publication-title">
+          <h1 class="title is-1 is-size-3 publication-title" style="display: flex; align-items: center;">
+            <img src="images/CVQA-logo.png" style="height: 3em; width: 3em; margin-right: -1em;">
             {{ .Title }}
-          </h1>
+          </h1>           
           <div class="is-size-7 publication-authors">
             {{ range .Params.authors }}
             <span class="author-block has-text-weight-bold is-size-7 ">
@@ -27,7 +28,7 @@
             {{ range $index, $author := .Params.authors_senior }}
               <span class="author-block has-text-weight-bold is-size-7">
                 {{ $author.name }}<sup>👁️</sup>{{ if lt (add $index 1) $length }},{{ end }}
-              </span>
+              </span> 
             {{ end }}
           </div>
           <div class="is-size-5 publication-authors">
