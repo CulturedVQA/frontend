@@ -8,7 +8,9 @@ Initially, we follow this [repository](https://github.com/eliahuhorwitz/Academic
 
 ## Can we use your code?
 
-Yes, all of them are under CC BY SA 4.0 License. 
+Yes, all of the code are under CC-SA 4.0 License. 
+
+The images and logo are under [CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## How to run it?
 
