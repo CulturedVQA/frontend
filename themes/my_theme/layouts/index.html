@@ -10,23 +10,23 @@
           </h1>           
           <div class="is-size-7 publication-authors">
             {{ range .Params.authors }}
-            <span class="author-block has-text-weight-bold is-size-7 ">
+            <span class="hover-institution author-block has-text-weight-bold is-size-7" data-institution="MBZUAI">
               {{ .name }}<sup>*</sup><sup>👁️</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_main }}
-            <span class="author-block has-text-weight-bold  is-size-7 ">
+            <span class="hover-institution author-block has-text-weight-bold  is-size-7" data-institution="MBZUAI">
               {{ .name }}<sup>👁️</sup>,
             </span>
             {{ end }}
             {{ range .Params.authors_annotators }}
-            <span class="author-block is-size-7 ">
+            <span class="hover-institution author-block is-size-7" data-institution="{{ .institution }}">
               {{ .name }}, 
             </span>
             {{ end }}
             {{ $length := len .Params.authors_senior }}
             {{ range $index, $author := .Params.authors_senior }}
-              <span class="author-block has-text-weight-bold is-size-7">
+              <span class="hover-institution author-block has-text-weight-bold is-size-7" data-institution="MBZUAI"> 
                 {{ $author.name }}<sup>👁️</sup>{{ if lt (add $index 1) $length }},{{ end }}
               </span> 
             {{ end }}

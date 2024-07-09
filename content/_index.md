@@ -10,76 +10,146 @@ authors:
 authors_main:
   - name: "Haryo Akbarianto Wibowo"
 authors_annotators:
-  - name: "Teresa Lynn"
-  - name: "Injy Hamed"
-  - name: "Aditya Nanda Kishore"
-  - name: "Aishik Mandal"
-  - name: "Alina Dragonetti"
-  - name: "Artem Abzaliev"
-  - name: "Atnafu Lambebo Tonja"
-  - name: "Bontu Fufa Balcha"
-  - name: "Chenxi Whitehouse"
-  - name: "Christian Salamea"
-  - name: "Dan John Velasco"
-  - name: "David Ifeoluwa Adelani"
-  - name: "David Le Meur"
-  - name: "Emilio Villa-Cueva"
-  - name: "Fajri Koto"
-  - name: "Fauzan Farooqui"
-  - name: "Frederico Belcavello"
-  - name: "Ganzoring Batnasan"
-  - name: "Gisela Vallejo"
-  - name: "Grainne Caulfield"
-  - name: "Guido Ivetta"
-  - name: "Haiyue Song"
-  - name: "Henok Biadglign Ademtew"
-  - name: "Hernán Maina"
-  - name: "Holy Lovenia"
-  - name: "Israel Abebe Azime"
-  - name: "Jan Christian Blaise Cruz"
-  - name: "Jay Gala"
-  - name: "Jesus-German Ortiz-Barajas"
-  - name: "Jiahui Geng"
-  - name: "Jinheon Baek"
-  - name: "Jocelyn Dunstan Escudero"
-  - name: "Kumaranage Ravindu Yasas Nagasinghe"
-  - name: "Laura Alonso Alemany"
-  - name: "Luciana Benotti"
-  - name: " Luis Fernando D'Haro"
-  - name: "Marcelo Viridiano"
-  - name: "Marcos Estecha-Garitagoitia"
-  - name: "Maria Camila Buitrago Cabrera"
-  - name: "Mario Rodríguez-Cantelar"
-  - name: "Mélanie Jouitteau"
-  - name: "Mihail Mihaylov"
-  - name: "Mohamed Fazli Mohamed Imam"
-  - name: "Muhammad Farid Adilazuarda"
-  - name: "Munkhjargal Gochoo"
-  - name: "Munkh-Erdene Otgonbold"
-  - name: "Naome A. Etori"
-  - name: "Olivier Niyomugisha"
-  - name: "Paula Mónica Silva"
-  - name: "Pranjal Chitale"
-  - name: "Raj Dabre"
-  - name: "Rendi Chevi"
-  - name: "Ruochen Zhang"
-  - name: "Ryandito Diandaru"
-  - name: "Samuel Cahyawijaya"
-  - name: "Santiago Góngora"
-  - name: "Soyeong Jeong"
-  - name: "Sukannya Purkayastha"
-  - name: "Tatsuki Kuribayashi"
-  - name: "Thanmay Jayakumar"
-  - name: "Tiago Timponi Torrent"
-  - name: "Toqeer Ehsan"
-  - name: "Vladimir Araujo"
-  - name: "Yova Kementchedjhieva"
-  - name: "Zara Burzo"
-  - name: "Zheng Wei Lim"
-  - name: "Zheng-Xin Yong"
-  - name: "Oana Ignat"
-  - name: "Joan Nwatu"
-  - name: "Rada Mihalcea"
+  - institution: MBZUAI
+    name: Teresa Lynn
+  - institution: MBZUAI
+    name: Injy Hamed
+  - institution: IIT Madras
+    name: Aditya Nanda Kishore
+  - institution: TU Darmstadt
+    name: Aishik Mandal
+  - institution: "Universidad de la Rep\xFAblica"
+    name: Alina Dragonetti
+  - institution: University of Michigan
+    name: Artem Abzaliev
+  - institution: MBZUAI
+    name: Atnafu Lambebo Tonja
+  - institution: .nan
+    name: Bontu Fufa Balcha
+  - institution: University of Cambridge
+    name: Chenxi Whitehouse
+  - institution: "Universidad Polit\xE9cnica Salesiana"
+    name: Christian Salamea
+  - institution: Samsung Research Philippines
+    name: Dan John Velasco
+  - institution: .nan
+    name: David Ifeoluwa Adelani
+  - institution: "Bretagne num\xE9rique"
+    name: David Le Meur
+  - institution: MBZUAI
+    name: Emilio Villa-Cueva
+  - institution: MBZUAI
+    name: Fajri Koto
+  - institution: .nan
+    name: Fauzan Farooqui
+  - institution: Federal University of Juiz de Fora
+    name: Frederico Belcavello
+  - institution: United Arab Emirates University / MBZUAI
+    name: Ganzorig Batnasan
+  - institution: The University of Melbourne
+    name: Gisela Vallejo
+  - institution: Dublin City University
+    name: Grainne Caulfield
+  - institution: "Universidad Nacional de C\xF3rdoba"
+    name: Guido Ivetta
+  - institution: NICT
+    name: Haiyue Song
+  - institution: EAII
+    name: Henok Biadglign Ademtew
+  - institution: "Universidad Nacional de C\xF3rdoba/CONICET"
+    name: "Hern\xE1n Maina"
+  - institution: AI Singapore
+    name: Holy Lovenia
+  - institution: Saarland University
+    name: Israel Abebe Azime
+  - institution: Samsung Research Philippines
+    name: Jan Christian Blaise Cruz
+  - institution: MBZUAI
+    name: Jay Gala
+  - institution: MBZUAI
+    name: Jesus-German Ortiz-Barajas
+  - institution: MBZUAI
+    name: Jiahui Geng
+  - institution: KAIST
+    name: Jinheon Baek
+  - institution: "Pontificia Universidad Cat\xF3lica de Chile"
+    name: Jocelyn Dunstan Escudero
+  - institution: MBZUAI
+    name: Kumaranage Ravindu Yasas Nagasinghe
+  - institution: "Universidad Nacional de C\xF3rdoba"
+    name: Laura Alonso Alemany
+  - institution: "Universidad Nacional de C\xF3rdoba/CONICET"
+    name: Luciana Benotti
+  - institution: .nan
+    name: Luis Fernando D'Haro
+  - institution: Federal University of Juiz de Fora
+    name: Marcelo Viridiano
+  - institution: "Universidad Polit\xE9cnica de Madrid"
+    name: Marcos Estecha-Garitagoitia
+  - institution: University of Stuttgart
+    name: Maria Camila Buitrago Cabrera
+  - institution: "Universidad Polit\xE9cnica de Madrid"
+    name: "Mario Rodr\xEDguez-Cantelar"
+  - institution: IKER, CNRS
+    name: "M\xE9lanie Jouitteau"
+  - institution: MBZUAI
+    name: Mihail Mihaylov
+  - institution: MBZUAI
+    name: Mohamed Fazli Mohamed Imam
+  - institution: MBZUAI
+    name: Muhammad Farid Adilazuarda
+  - institution: United Arab Emirates University
+    name: Munkhjargal Gochoo
+  - institution: United Arab Emirates University
+    name: Munkh-Erdene Otgonbold
+  - institution: .nan
+    name: Naome Etori
+  - institution: .nan
+    name: Olivier Niyomugisha
+  - institution: Millenium Institute Foundational Reseach on Data
+    name: "Paula M\xF3nica Silva"
+  - institution: .nan
+    name: Pranjal Chitale
+  - institution: IIT Madras
+    name: Raj Dabre
+  - institution: MBZUAI
+    name: Rendi Chevi
+  - institution: Brown University
+    name: Ruochen Zhang
+  - institution: ITB
+    name: Ryandito Diandaru
+  - institution: HKUST
+    name: Samuel Cahyawijaya
+  - institution: "Universidad de la Rep\xFAblica"
+    name: "Santiago G\xF3ngora"
+  - institution: KAIST
+    name: Soyeong Jeong
+  - institution: TU Darmstadt
+    name: Sukannya Purkayastha
+  - institution: MBZUAI
+    name: Tatsuki Kuribayashi
+  - institution: IIT Madras
+    name: Thanmay Jayakumar
+  - institution: Federal University of Juiz de Fora, CNPq
+    name: Tiago Timponi Torrent
+  - institution: MBZUAI
+    name: Toqeer Ehsan
+  - institution: KU Leuven
+    name: Vladimir Araujo
+  - institution: MBZUAI
+    name: Yova Kementchedjhieva
+  - institution: Skyline Highschool
+    name: Zara Burzo
+  - institution: The University of Melbourne
+    name: Zheng Wei Lim
+  - institution: Brown University
+    name: Zheng-Xin Yong
+  - institution: University of Michigan
+    name: Oana Ignat
+  - institution: University of Michigan
+    name: Joan Nwatu
+  - institution: University of Michigan
+    name: Rada Mihalcea
 authors_senior:
   - name: "Thamar Solorio"
   - name: "Alham Fikri Aji"
