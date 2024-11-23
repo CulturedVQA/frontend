@@ -2,4 +2,4 @@
 
 This section shows the performance of several MLLM models tested on CVQA.
 
-![alt text](images/final-result.png)
+![alt text](images/final-result-2.png)
